@@ -1,3 +1,25 @@
+## v9.0.2009 (September 2020)
+
+BREAKING CHANGES:
+
+* Iterating on our new key-based iterative model to simplify deployment and maintenance, this is a major refactoring that will bring compatibility with enterprise-scale landing zones and extensible platform for construction sets (solutions and applications) deployed on top of core landing zones. 
+
+FEATURES:
+* **added support for azurerm 2.28 :** On all sample landing zones [azurerm provider](https://github.com/terraform-providers/terraform-provider-azurerm/releases/tag/v2.28.0)
+
+## v8.0.2008 (August 2020)
+
+BREAKING CHANGES:
+
+* We have fully migrated the codebase to Terraform 0.13 and refactored the code rely on a new key-based iterative model to simplify deployment and maintenance. We also leverage new features like conditions and iterations on modules, variables validation, etc.
+
+FEATURES:
+
+* **added support for azurerm 2.25 :** On all sample landing zones [azurerm provider](https://github.com/terraform-providers/terraform-provider-azurerm/releases/tag/v2.25.0)
+* **landingzone_caf_foundations :** Refactoring foundations to use new key-based iterative model, enabling support for multi-regions foundations.
+* **landingzone_networking :** Refactoring networking landing zones to use new key-based iterative model, this is enabling support for all networking models in only one landing zone.
+
+
 ## v7.0.2007 (July 2020)
 
 BREAKING CHANGES:
